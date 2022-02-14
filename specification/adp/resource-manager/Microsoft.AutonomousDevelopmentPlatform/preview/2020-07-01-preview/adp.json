@@ -34,42 +34,6 @@
     }
   },
   "paths": {
-    "/providers/Microsoft.AutonomousDevelopmentPlatform/operations": {
-      "get": {
-        "tags": [
-          "Operations"
-        ],
-        "description": "Lists all of the available Autonomous Development Platform provider operations.",
-        "operationId": "Operations_List",
-        "x-ms-examples": {
-          "List operations": {
-            "$ref": "./examples/AdpOperationsList.json"
-          }
-        },
-        "parameters": [
-          {
-            "$ref": "../../../../../common-types/resource-management/v1/types.json#/parameters/ApiVersionParameter"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "schema": {
-              "$ref": "#/definitions/OperationListResult"
-            }
-          },
-          "default": {
-            "description": "Error response describing why the operation failed.",
-            "schema": {
-              "$ref": "#/definitions/ErrorResponse"
-            }
-          }
-        },
-        "x-ms-pageable": {
-          "nextLinkName": "nextLink"
-        }
-      }
-    },
     "/subscriptions/{subscriptionId}/providers/Microsoft.AutonomousDevelopmentPlatform/accounts": {
       "get": {
         "tags": [
