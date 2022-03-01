@@ -32,7 +32,7 @@
         "tags": [
           "Operations"
         ],
-        "operationId": "Operations_List",
+        "operationId", "": "Operations_List",
         "description": "Lists all of the available Azure attestation operations.",
         "x-ms-examples": {
           "Operations_List": {
