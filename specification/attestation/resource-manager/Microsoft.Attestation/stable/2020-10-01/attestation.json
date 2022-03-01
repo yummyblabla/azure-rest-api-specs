@@ -83,7 +83,7 @@
             "name": "providerName",
             "in": "path",
             "required": true,
-            "type": "integer",
+            "type": "string",
             "description": "Name of the attestation provider."
           },
           {
