@@ -658,6 +658,9 @@
           },
           {
             "$ref": "#/parameters/ResourceNameParameter"
+          },
+          {
+            "$ref": "#/parameters/ForcePodDrainParameter"
           }
         ],
         "responses": {
@@ -1113,6 +1116,9 @@
             "required": true,
             "type": "string",
             "description": "The name of the agent pool."
+          },
+          {
+            "$ref": "#/parameters/ForcePodDrainParameter"
           }
         ],
         "responses": {
@@ -5726,6 +5732,14 @@
         ]
       },
       "description": "Only apply to AAD clusters, specifies the format of returned kubeconfig. Format 'azure' will return azure auth-provider kubeconfig; format 'exec' will return exec format kubeconfig, which requires kubelogin binary in the path.",
+      "x-ms-parameter-location": "method"
+    },
+    "ForcePodDrainParameter": {
+      "name": "force-pod-drain",
+      "in": "query",
+      "required": false,
+      "type": "boolean",
+      "description": "force-pod-drain=true to delete pods on node by ignoring PDB",
       "x-ms-parameter-location": "method"
     }
   }
