@@ -291,45 +291,55 @@ input-file:
 
 ### Tag: package-2022-01-03
 
-These settings apply only when `--tag=package-2022-01-03` is specified on the command line.
+These settings apply only when `--tag=package-2022-08-01` is specified on the command line.
 
-``` yaml $(tag) == 'package-2022-01-03'
+``` yaml $(tag) == 'package-2022-08-01'
 input-file:
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/computeRPCommon.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/virtualMachineScaleSet.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/virtualMachine.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/virtualMachineImage.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/virtualMachineExtensionImage.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/availabilitySet.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/proximityPlacementGroup.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/dedicatedHost.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/sshPublicKey.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/image.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/restorePoint.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/capacityReservation.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/logAnalytic.json
-- Microsoft.Compute/stable/2022-03-01/ComputeRP/runCommand.json 
-- Microsoft.Compute/stable/2021-07-01/skus.json
-- Microsoft.Compute/stable/2021-12-01/disk.json
-- Microsoft.Compute/stable/2022-01-03/common.json
-- Microsoft.Compute/stable/2022-01-03/GalleryRP/galleryRPCommon.json
-- Microsoft.Compute/stable/2022-01-03/GalleryRP/gallery.json
-- Microsoft.Compute/stable/2022-01-03/GalleryRP/sharedGallery.json
-- Microsoft.Compute/stable/2022-01-03/GalleryRP/communityGallery.json
-- Microsoft.Compute/stable/2021-03-01/cloudService.json
+- Microsoft.Compute/common-types/v1/common.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/computeRPCommon.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineScaleSet.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachine.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineImage.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineExtensionImage.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/availabilitySet.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/proximityPlacementGroup.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/dedicatedHost.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/sshPublicKey.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/image.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/restorePoint.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/capacityReservation.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/logAnalytic.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/runCommand.json 
+- Microsoft.Compute/previous-versions/stable/2021-07-01/skus.json
+- Microsoft.Compute/previous-versions/stable/2021-12-01/disk.json
+- Microsoft.Compute/previous-versions/stable/2021-10-01/gallery.json
+- Microsoft.Compute/previous-versions/stable/2021-07-01/sharedGallery.json
+- Microsoft.Compute/previous-versions/stable/2021-07-01/communityGallery.json
+- Microsoft.Compute/previous-versions/stable/2021-03-01/cloudService.json
 ```
 
-### Tag: package-2022-01-03-only
 
-These settings apply only when `--tag=package-2022-01-03-only` is specified on the command line.
+### Tag: package-2022-08-01-only
 
-``` yaml $(tag) == 'package-2022-01-03-only'
+These settings apply only when `--tag=package-2022-08-01` is specified on the command line.
+
+``` yaml $(tag) == 'package-2022-08-01'
 input-file:
-- Microsoft.Compute/stable/2022-01-03/common.json
-- Microsoft.Compute/stable/2022-01-03/GalleryRP/galleryRPCommon.json
-- Microsoft.Compute/stable/2022-01-03/GalleryRP/gallery.json
-- Microsoft.Compute/stable/2022-01-03/GalleryRP/sharedGallery.json
-- Microsoft.Compute/stable/2022-01-03/GalleryRP/communityGallery.json
+- Microsoft.Compute/common-types/v1/common.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/computeRPCommon.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineScaleSet.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachine.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineImage.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineExtensionImage.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/availabilitySet.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/proximityPlacementGroup.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/dedicatedHost.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/sshPublicKey.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/image.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/restorePoint.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/capacityReservation.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/logAnalytic.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/runCommand.json 
 ```
 
 ### Tag: package-2022-03-01
