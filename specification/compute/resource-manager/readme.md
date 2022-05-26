@@ -241,21 +241,21 @@ These settings apply only when `--tag=package-2022-08-01` is specified on the co
 
 ``` yaml $(tag) == 'package-2022-08-01'
 input-file:
-- Microsoft.Compute/Common/v1/common.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/computeRPCommon.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/virtualMachineScaleSet.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/virtualMachine.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/virtualMachineImage.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/virtualMachineExtensionImage.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/availabilitySet.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/proximityPlacementGroup.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/dedicatedHost.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/sshPublicKey.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/image.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/restorePoint.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/capacityReservation.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/logAnalytic.json
-- Microsoft.Compute/ComputeRP/stable/2022-08-01/ComputeRP/runCommand.json 
+- Microsoft.Compute/common-types/v1/common.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/computeRPCommon.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineScaleSet.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachine.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineImage.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/virtualMachineExtensionImage.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/availabilitySet.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/proximityPlacementGroup.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/dedicatedHost.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/sshPublicKey.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/image.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/restorePoint.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/capacityReservation.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/logAnalytic.json
+- Microsoft.Compute/computeRP/stable/2022-08-01/runCommand.json 
 - Microsoft.Compute/previousVersions/stable/2021-07-01/skus.json
 - Microsoft.Compute/previousVersions/stable/2021-12-01/disk.json
 - Microsoft.Compute/previousVersions/stable/2021-10-01/gallery.json
