@@ -1,0 +1,36 @@
+{
+	"parameters": {
+		"api-version": "2022-05-01-preview",
+		"subscriptionId": "bd794837-4d29-4647-9105-6339bfdb4e6a",
+		"resourceGroupName": "myRg",
+		"workspaceName": "myWorkspace",
+		"operationalInsightsResourceProvider": "Microsoft.OperationalInsights",
+		"huntSessionId": "163e7b2a-a2ec-4041-aaba-d878a38f265f"
+	},
+	"responses": {
+		"200": {
+			"body": {
+				"id": "/subscriptions/bd794837-4d29-4647-9105-6339bfdb4e6a/resourceGroups/myRg/providers/Microsoft.OperationalInsights/workspaces/myWorkspace/providers/Microsoft.SecurityInsights/huntsessions/163e7b2a-a2ec-4041-aaba-d878a38f265f",
+				"name": "163e7b2a-a2ec-4041-aaba-d878a38f265f",
+				"etag": "\"de00c408-0000-0c00-0000-62741e350000\"",
+				"type": "Microsoft.SecurityInsights/huntsessions",
+				"properties": {
+					"title": "Log4J new hunt session",
+					"description": "Log4J Hunt Session Description",
+					"status": "New",
+					"hypothesisStatus": "Unknown",
+					"attackTactics": [
+						"Reconnaissance"
+					],
+					"huntSessionNumber": 0,
+					"huntSessionStartTimeUtc": "2022-03-11T09:47:15.438Z",
+					"huntSessionEndTimeUtc": "2022-03-12T09:47:15.438Z",
+					"labels": [
+						"Label1",
+						"Label2"
+					]
+				}
+			}
+		}
+	}
+}
